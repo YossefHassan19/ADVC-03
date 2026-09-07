@@ -92,6 +92,51 @@
 
             #endregion
 
+            #region Exercise 3: Phone Book
+
+            //Exercise 3: Phone Book
+
+            //Create a Collection  with 4 contacts (name → phone number)
+            //Dictionary<string, int> phoneBook = new()
+            //{
+            //    ["Ahmed"] = 500,
+            //    ["Sara"] = 200,
+            //    ["Ali"] = 800,
+            //    ["Mona"] = 350
+            //};
+
+            //2- Add a new contact using [] syntax (add or update)
+            //phoneBook["Yossef"] = 900;
+
+            //3- Try adding a duplicate using .Add() — catch the exception and print the error
+            //phoneBook.Add("Yossef", 900);
+
+            //4- Try adding a duplicate using .TryAdd() — print whether it succeeded
+            //phoneBook.TryAdd("Yossef", 900);
+            //foreach (var contact in phoneBook)
+            //    Console.WriteLine($"{contact.Key} -> {contact.Value}");
+
+            //5- Search for a contact that doesn’t exist
+            //bool hasContact = phoneBook.ContainsKey("Osama");
+            //Console.WriteLine(hasContact);
+
+            //6- Get a contact with a fallback of "Not Found"
+            //var contact = phoneBook.GetValueOrDefault("Not Found", 853);
+            //Console.WriteLine($"\nGetValueOrDefault for 'Not Found' with fallback: {contact}");3
+
+            //7- Print all Keys on one line, then all Values on another line
+            //foreach (var contact in phoneBook)
+            //{
+            //    Console.Write($"{contact.Key} ");
+            //}
+            //Console.WriteLine();
+            //foreach (var contact in phoneBook)
+            //{
+            //    Console.Write($"{contact.Value} ");
+            //}
+
+            #endregion
+
         }
     }
 }
