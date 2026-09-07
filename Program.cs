@@ -55,6 +55,43 @@
 
             #endregion
 
+            #region Exercise 2: Leaderboard
+
+            //Exercise 2: Leaderboard
+
+            //1- Add: 500="Ahmed", 200="Sara", 800="Ali", 350="Mona"
+            //Dictionary<int, string> entries = new()
+            //{
+            //    [500] = "Ahmed",
+            //    [200] = "Sara",
+            //    [800] = "Ali",
+            //    [350] = "Mona"
+            //};
+
+            //2- Print all entries (they should be sorted by score automatically)
+            //foreach (var entery in entries)
+            //    Console.WriteLine($"{entery.Key} -> {entery.Value}");
+
+            //3- Access the first key and first value 
+            //var firstKey= entries.First().Key;
+            //var firstValue = entries.First().Value;
+            //Console.WriteLine($"First Key: {firstKey}, First Value: {firstValue}");
+
+            //4- Check if score 500 exists
+            //bool hasScore500 = entries.ContainsKey(500);
+            //Console.WriteLine($"Has Score 500: {hasScore500}");
+
+            //5- Safely get the player with score 999
+            //entries.TryGetValue(999, out string? value);
+            //Console.WriteLine(value);
+
+            //6- Remove the player with score 200 and print the updated list
+            //entries.Remove(200);
+            //foreach (var entery in entries)
+            //    Console.WriteLine(entery);
+
+            #endregion
+
         }
     }
 }
